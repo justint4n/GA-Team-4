@@ -3,104 +3,151 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Us | NutriGuide SG</title>
+    <title>About | EatingHealthy</title>
     <meta
       name="description"
-      content="Meet the NutriGuide SG project: a student-built healthy eating platform designed to support clear, safe, and practical guidance."
+      content="Learn about the EatingHealthy project, its goals, and the simple approach behind the website design."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Plus+Jakarta+Sans:wght@500;700;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" type="image/png" href="images/NutriGuide round.png" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
 
-    <header class="site-header">
-      <div class="brand">
-        <div class="brand-mark" aria-hidden="true">NG</div>
-        <div>
-          <p class="brand-kicker">NutriGuide SG</p>
-          <p class="brand-subtitle">About the team and the mission</p>
-        </div>
-      </div>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="index.html" aria-label="EatingHealthy home">
+          <img
+            class="brand-mark"
+            src="images/NutriGuide round.png"
+            alt="NutriGuide logo"
+          />
+          <span class="brand-copy">
+            <span class="brand-name">EatingHealthy</span>
+            <span class="brand-tagline">About the website</span>
+          </span>
+        </a>
 
-      <nav class="site-nav" aria-label="Primary">
-        <a href="index.html">Home</a>
-        <a href="about.html" aria-current="page">About Us</a>
-      </nav>
-    </header>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="index.html">Home</a>
+          <a href="about.html" aria-current="page">About</a>
+        </nav>
+      </header>
 
-    <main id="main">
-      <section class="page-hero">
-        <p class="eyebrow">About Us</p>
-        <h1>We’re building a student-friendly nutrition guide for Singaporean learners.</h1>
-        <p class="lead">
-          NutriGuide SG is designed to help users understand healthier eating in a simple,
-          respectful, and practical way. The website is the front door to a larger project that
-          your teammates can later extend with automation, AI assistance, and video support.
-        </p>
-      </section>
-
-      <section class="section split-section about-split">
-        <div class="about-panel">
-          <h2>Our mission</h2>
-          <p>
-            To make healthy eating advice easier to access and easier to act on, especially for
-            busy students who need fast, non-judgmental guidance.
+      <main id="main">
+        <section class="page-hero">
+          <p class="eyebrow">About EatingHealthy</p>
+          <h1>A simple website focused on healthy eating guidance and future chatbot support.</h1>
+          <p class="lead">
+            EatingHealthy is designed to introduce users to healthier food choices in a calm and friendly way.
+            The site keeps the experience clean while supporting the live BotPress assistant.
           </p>
-        </div>
-        <div class="about-panel">
-          <h2>What we are not</h2>
-          <p>
-            We are not a medical service. The site should stay within safe healthy eating education
-            and avoid diagnosing conditions or giving unsafe advice.
-          </p>
-        </div>
-      </section>
+        </section>
 
-      <section class="section">
-        <div class="section-heading">
-          <p class="eyebrow">Project direction</p>
-          <h2>Built to fit the workflow your team described.</h2>
-        </div>
-        <div class="timeline">
-          <article class="timeline-item">
-            <span>1</span>
-            <div>
-              <h3>Clear homepage and about page</h3>
+        <section class="section">
+          <div class="card-grid">
+            <article class="info-card">
+              <h3>Our goal</h3>
               <p>
-                This site gives NutriGuide SG a polished public-facing identity before the AI layers are added.
+                Make healthy eating feel easier to understand through a simple interface and clear content structure.
               </p>
-            </div>
-          </article>
-          <article class="timeline-item">
-            <span>2</span>
-            <div>
-              <h3>Future AI integration</h3>
+            </article>
+            <article class="info-card">
+              <h3>Our approach</h3>
               <p>
-                Your teammates can connect n8n, Google AI Studio, DeepSeek, and Synthesia after the core web experience is ready.
+                Keep the design minimal, readable, and welcoming so users can focus on the information quickly.
               </p>
-            </div>
-          </article>
-          <article class="timeline-item">
-            <span>3</span>
-            <div>
-              <h3>Safe, compliant guidance</h3>
+            </article>
+            <article class="info-card">
+              <h3>What comes next</h3>
               <p>
-                Every future response should remain grounded in trusted nutrition sources and avoid harmful or biased language.
+                Extend the current BotPress setup with webhook-driven triggers and future content updates.
               </p>
-            </div>
-          </article>
-        </div>
-      </section>
-    </main>
+            </article>
+          </div>
+        </section>
 
-    <footer class="site-footer">
-      <p>NutriGuide SG • About the project and the team vision</p>
-    </footer>
+        <section class="section section-band">
+          <div class="split-layout">
+            <div>
+              <p class="eyebrow">Design direction</p>
+              <h2>Simple enough for first-time visitors, flexible enough for future features.</h2>
+              <p class="body-copy">
+                The website uses a light visual system, generous spacing, and straightforward messaging
+                so the next development phase can focus on improving chatbot behavior instead of reworking the design.
+              </p>
+            </div>
+
+            <div class="journey-card">
+              <div class="journey-step">
+                <span>1</span>
+                <p>Clear homepage introduction</p>
+              </div>
+              <div class="journey-step">
+                <span>2</span>
+                <p>Strong visual hierarchy for readability</p>
+              </div>
+              <div class="journey-step">
+                <span>3</span>
+                <p>Prepared space for BotPress integration</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>EatingHealthy keeps the website clear today and ready for smarter interactions tomorrow.</p>
+      </footer>
+    </div>
+
+    <div class="chat-widget">
+      <button
+        class="chat-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="chat-panel"
+        aria-label="Open chat assistant"
+      >
+        <img
+          class="chat-toggle-icon"
+          src="images/NutriGuide round.png"
+          alt=""
+          aria-hidden="true"
+        />
+      </button>
+
+      <section class="chat-panel" id="chat-panel" aria-label="EatingHealthy chat assistant" hidden>
+        <div class="chat-panel-header">
+          <div class="chat-panel-heading">
+            <img
+              class="chat-panel-icon"
+              src="images/NutriGuide round.png"
+              alt="NutriGuide logo"
+            />
+            <div>
+              <p class="chat-panel-title">EatingHealthy Assistant</p>
+              <p class="chat-panel-subtitle">Ask healthy eating questions anytime.</p>
+            </div>
+          </div>
+          <button class="chat-close" type="button" aria-label="Close chat assistant">×</button>
+        </div>
+
+        <iframe
+          class="chat-embed"
+          src="https://cdn.botpress.cloud/webchat/v3.6/shareable.html?configUrl=https://files.bpcontent.cloud/2026/07/05/16/20260705163615-MKP40SN4.json"
+          title="EatingHealthy BotPress Chat"
+          loading="lazy"
+        ></iframe>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
